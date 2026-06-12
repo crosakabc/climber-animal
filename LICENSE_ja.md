@@ -4,7 +4,7 @@
 [🇨🇳 中文](./LICENSE_zh-CN.md) | [🇬🇧 English](./LICENSE) | **🇯🇵 日本語**
 <!-- MULTILANG_NAV_END -->
 
----
+***
 
 MIT ライセンス
 
