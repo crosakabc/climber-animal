@@ -1,3 +1,9 @@
+# 🐾 AnimalTransferMod
+
+**中文** | [English](./Documentation_en.md) | [日本語](./Documentation_ja.md)
+
+---
+
 # 说明文档 — Climber Animals Together MOD 安装与使用
 
 > **适用游戏**: Climber Animals Together (AsianMode 版本)  

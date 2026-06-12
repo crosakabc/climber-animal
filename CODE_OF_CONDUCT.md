@@ -1,3 +1,9 @@
+# 🐾 AnimalTransferMod
+
+**English** | [中文](./CODE_OF_CONDUCT_zh-CN.md) | [日本語](./CODE_OF_CONDUCT_ja.md)
+
+---
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
