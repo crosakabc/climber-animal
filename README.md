@@ -194,5 +194,5 @@ Climber Animals Together\
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/crosakabc">crosakabc</a>
+  Made with ❤️ by <a href="https://github.com/crosakabc">crosakabc 😀</a>
 </p>
