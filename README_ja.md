@@ -153,6 +153,9 @@ Ctrl+Z   セーブした位置に戻る
 - [ ] 複数セーブスロット対応
 
 
+
+
+
 ---
 ## 🔧 トラブルシューティング
 
@@ -167,9 +170,27 @@ Ctrl+Z   セーブした位置に戻る
 ### 初回インストール後にエラーが発生する？
 MelonLoaderが生成した全ファイルを削除（ゲームの元ファイルはそのまま残す）し、`MelonLoader.Installer.exe`を再度実行してインストールし直せば解決します。
 
+
+
+## 🤝 コントリビューション
+
+Issue や PR を歓迎します！
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/crosakabc">crosakabc😀</a>
+</p>
+
+
+
+
 ---
 
 ## 📁 プロジェクト構成
+
+---
+
 ```
 Climber Animals Together\
 ├── Climber Animals Together.exe
@@ -183,14 +204,3 @@ Climber Animals Together\
 └── release\                        # バックアップ（任意）
     └── AnimalTransferMod.dll
 
----
-
-## 🤝 コントリビューション
-
-Issue や PR を歓迎します！
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/crosakabc">crosakabc😀</a>
-</p>
