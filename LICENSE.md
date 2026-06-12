@@ -1,10 +1,6 @@
 # 🐾 AnimalTransferMod
 
-<!-- MULTILANG_NAV_START -->
 [🇨🇳 中文](./LICENSE_zh-CN.md) | **🇬🇧 English** | [🇯🇵 日本語](./LICENSE_ja.md)
-<!-- MULTILANG_NAV_END -->
-
-***
 
 MIT License
 
