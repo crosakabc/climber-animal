@@ -195,8 +195,8 @@ Issue や PR を歓迎します！
 Climber Animals Together\
 ├── Climber Animals Together.exe
 ├── Mods\                           # MOD格納ディレクトリ
-|   ├── AnimalTransferMod.pdb           # ← エラー発生時のデバッグスタック出力用   
-|   ├── AnimalTransferMod.deps          # ← JSON形式の依存設定ファイル、MODが必要とするライブラリを記載
+│   ├── AnimalTransferMod.pdb           # ← エラー発生時のデバッグスタック出力用   
+│   ├── AnimalTransferMod.deps          # ← JSON形式の依存設定ファイル、MODが必要とするライブラリを記載
 │   ├── AnimalTransferMod.dll       # 転送MOD本体
 │   └── AnimalTransferMod_Save.txt  # 座標保存ファイル
 ├── Plugins\                        # MelonLoader用プラグイン
