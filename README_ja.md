@@ -61,6 +61,8 @@
 # AnimalTransferMod.dll を Mods フォルダに配置
 D:\steam\steamapps\common\Climber Animals Together\Mods\
 │
+├── AnimalTransferMod.pdb           # ← デバッグ時のエラースタック確認用 
+├── AnimalTransferMod.deps          # ← JSON依存設定ファイル、MOD依存ライブラリを記述
 ├── AnimalTransferMod.dll          # ← 本 MOD
 └── AnimalTransferMod_Save.txt     # ← 座標セーブファイル（自動生成）
 ```
@@ -141,6 +143,37 @@ Ctrl+Z   セーブした位置に戻る
 - [ ] マルチプレイ機能の深度最適化
 - [ ] GUI パフォーマンス最適化によるフレーム影響の低減
 - [ ] 複数セーブスロット対応
+
+
+---
+## 🔧 トラブルシューティング
+
+### MODが読み込まれない？
+```
+1. MelonLoaderが正しくインストールされているか確認（ゲーム起動時にMelonLoaderの起動画面が表示されるはず）
+2. AnimalTransferMod.dllがModsフォルダ内に存在するか確認
+3. MelonLoaderが生成した全ファイルを削除し、最新版を再インストールする
+4. ゲームを再起動する
+```
+
+### 初回インストール後にエラーが発生する？
+MelonLoaderが生成した全ファイルを削除（ゲームの元ファイルはそのまま残す）し、`MelonLoader.Installer.exe`を再度実行してインストールし直せば解決します。
+
+---
+
+## 📁 プロジェクト構成
+```
+Climber Animals Together\
+├── Climber Animals Together.exe
+├── Mods\                           # MOD格納ディレクトリ
+|   ├── AnimalTransferMod.pdb           # ← エラー発生時のデバッグスタック出力用   
+|   ├── AnimalTransferMod.deps          # ← JSON形式の依存設定ファイル、MODが必要とするライブラリを記載
+│   ├── AnimalTransferMod.dll       # 転送MOD本体
+│   └── AnimalTransferMod_Save.txt  # 座標保存ファイル
+├── Plugins\                        # MelonLoader用プラグイン
+├── UserData\                       # ユーザーデータ
+└── release\                        # バックアップ（任意）
+    └── AnimalTransferMod.dll
 
 ---
 

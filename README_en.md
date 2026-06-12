@@ -70,6 +70,8 @@ Download [MelonLoader.Installer.exe](https://github.com/LavaGang/MelonLoader/rel
 # Place AnimalTransferMod.dll into the Mods folder
 D:\steam\steamapps\common\Climber Animals Together\Mods\
 │
+├── AnimalTransferMod.pdb           # ← For debugging error stacks   
+├── AnimalTransferMod.deps          # ← JSON dependency configuration file to mark MOD dependent libraries
 ├── AnimalTransferMod.dll          # ← This MOD
 └── AnimalTransferMod_Save.txt     # ← Coordinate save file (auto-generated)
 ```
@@ -185,6 +187,8 @@ Delete all MelonLoader-generated files (keep only the original game files), then
 Climber Animals Together\
 ├── Climber Animals Together.exe
 ├── Mods\                           # MOD directory
+|   ├── AnimalTransferMod.pdb           # ← For debugging error stacks  
+|   ├── AnimalTransferMod.deps          # ← JSON dependency configuration file for marking MOD dependency libraries
 │   ├── AnimalTransferMod.dll       # Teleport MOD core
 │   └── AnimalTransferMod_Save.txt  # Coordinate save file
 ├── Plugins\                        # MelonLoader plugins

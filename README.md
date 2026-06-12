@@ -67,9 +67,11 @@
 ### 2. 安装本 MOD
 
 ```bash
-# 将 AnimalTransferMod.dll 放入 Mods 文件夹
+# 将 AnimalTransferMod.dll以及依赖文件 放入 Mods 文件夹
 D:\stream\steamapps\common\Climber Animals Together\Mods\
 │
+├── AnimalTransferMod.pdb           # ← 调试报错堆栈用   
+├── AnimalTransferMod.deps          # ← JSON 依赖配置文件，标记 MOD 依赖库
 ├── AnimalTransferMod.dll          # ← 本 MOD
 └── AnimalTransferMod_Save.txt     # ← 坐标存档文件（自动生成）
 ```
@@ -185,6 +187,8 @@ Ctrl+Z  回到存档位置
 Climber Animals Together\
 ├── Climber Animals Together.exe
 ├── Mods\                           # MOD 目录
+├   ├── AnimalTransferMod.pdb           # ← 调试报错堆栈用   
+├   ├── AnimalTransferMod.deps          # ← JSON 依赖配置文件，标记 MOD 依赖库
 │   ├── AnimalTransferMod.dll       # 传送 MOD 主体
 │   └── AnimalTransferMod_Save.txt  # 坐标存档
 ├── Plugins\                        # MelonLoader 插件
