@@ -1,10 +1,10 @@
 # 🐾 AnimalTransferMod
 
-[中文](#cn) | [English](#en) | [日本語](#ja)
+<!-- MULTILANG_NAV_START -->
+**🇨🇳 中文** | [🇬🇧 English](./README_en.md) | [🇯🇵 日本語](./README_ja.md)
+<!-- MULTILANG_NAV_END -->
 
 ---
-
-<a id="cn"></a>
 
 <p align="center">
   <img src="https://img.shields.io/badge/game-Climber%20Animals%20Together-blue?style=for-the-badge" alt="Game">
@@ -204,19 +204,3 @@ Climber Animals Together\
 <p align="center">
   Made with ❤️ by <a href="https://github.com/crosakabc">crosakabc😀</a>
 </p>
-
----
-
-<a id="en"></a>
-
-## 🇬🇧 English
-
-> 🚧 English translation is coming soon. Please refer to the [Chinese version](#cn) above.
-
----
-
-<a id="ja"></a>
-
-## 🇯🇵 日本語
-
-> 🚧 日本語翻訳は準備中です。当面は上記の[中国語版](#cn)をご参照ください。
